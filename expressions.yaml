@@ -1,0 +1,111 @@
+# ====================== Expressions for stats ====================== 
+shooting:
+
+  FG:
+    - 'from the field'
+  FG3:
+    - 'from 3'
+    - 'from beyond the arc'
+    - 'from deep'
+  FT:
+    - 'from the line'
+    - 'on free throws'
+
+  figure:
+    pct:
+      verb:
+        - 'shot'
+      format: 
+        - ' {:.1%}'
+
+    ratio:
+      verb:
+        - 'went'
+      format:
+        - ' {}'
+
+TOV:
+  - 'had {} turnovers'
+
+PLUS_MINUS:
+  - 'had a plus-minus of {}'
+  - 'ended with a plus-minus of {}'
+  - 'finished {}'
+  - 'ended {}'
+
+PTS:
+  - 'scored only {} points'
+  - 'recorded only {} points'
+
+# ====================== Expressions for variety ====================== 
+L:
+  - 'in a loss against {}'
+
+W:
+  - 'vs {}'
+  - 'against {}'
+
+time:
+  - 'last night'
+  - 'yesterday'
+
+good_game:
+  - '{} had a good game'
+  - '{} played well'
+  - "{} didn't play like crap"
+  - "{} didn't play like a doofus"
+  - "{} didn't play like a goof"
+  - "{} didn't play like trash"
+  - "{} wasn't trash"
+  - "{} wasn't horrible"
+  - "{} wasn't terrible"
+  - "I didn't find any horrible stats for {}"
+  - "I didn't find any bad stats for {}"
+
+
+good_ending:
+  - 'Congrats! 🏆'
+  - 'Congrats! 🎉'
+  - 'Congrats! 🥳'
+  - 'So proud of him! 🤩'
+  - 'So proud of him! 😍'
+  - 'What a star! 🤩'
+  - 'What a star! 🌟'
+  - "Keep ballin'! 🏀"
+  - 'My hero! 🤩'
+  - 'My hero! 😍'
+  - 'What a player! 🏀'
+  - 'What a player! 😍'
+  - 'What a player! 🤩'
+  - 'What a champ! 🏆'
+  - 'What a champ! 🥇'
+  - 'What a champ! 💯'
+  - 'The GOAT! 🐐'
+  - 'The GOAT! 🥇'
+  - 'Good for him! 😄'
+  - 'Keep going! 🏆'
+  - 'Keep going! 💯'
+
+bad_ending:
+  - "Wow that's bad! 💩"
+  - "Wow that's bad! 🚽"
+  - "Wow that's bad! 🚮"
+  - 'Yuck! 🤮'
+  - 'LMAO! 🤣'
+  - 'LMAO! 😂'
+  - 'Terrible! 💩'
+  - 'Terrible! 🚽'
+  - 'Terrible! 🤮'
+  - 'What a scrub! 💩'
+  - 'What a scrub! 🚽'
+  - 'How!? 😭'
+  - 'How!? 🤬'
+  - 'How!? 😤'
+  - 'Yikes! 😬'
+  - 'Yikes! 😱'
+  - 'Really!? 🤬'
+  - 'Really!? 😤'
+  - 'Step your game up! 🤬'
+  - 'Step your game up! 😤' 
+  - 'Not good! ☹'
+  - 'Not good! 😢'

@@ -1,0 +1,15 @@
+flask:
+  secret: 'A_SECRET_KEY'
+
+twilio:
+  sid: 'YOUR_TWILIO_SID'
+  token: 'YOUR_TWILIO_AUTH_TOKEN'
+  phone_number: 'YOUR_TWILIO_PHONE_NUMBER'
+
+users:
+  - phone_number: 'USER_1_PHONE_NUMBER'
+    player: 'Russell Westbrook'
+    new_user: True
+  - phone_number: 'USER_2_PHONE_NUMBER'
+    player: 'Russell Westbrook'
+    new_user: True
