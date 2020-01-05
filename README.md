@@ -47,7 +47,7 @@ Copy and paste the `Forwarding` https:// url (with `/bot` appended to the end) f
 # Production Deployment
 To deploy the app, you will need a production-ready web server such as [nginx](https://www.nginx.com/) and a WSGI application server such as [gunicorn](https://gunicorn.org/) to handle the python code.
 
-`bot.py` contains the Flask app that conrols the chatbot that users can use to set their players. `daily_msg.py` is the script that sends notifications to users after their player plays a game.
+`bot.py` contains the Flask app that controls the chatbot that users can use to set their players. `daily_msg.py` is the script that sends notifications to users after their player plays a game.
 
 Since both processes must be running all the time and preferrably restart after crashing, it is advisable to use a process supervisor (on Linux) such as `supervisord` or `systemd` for both commands.
 
