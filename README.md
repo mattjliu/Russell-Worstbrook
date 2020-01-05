@@ -39,7 +39,7 @@ This should create a `users.db` file in your working directory
 
 Using [ngrok](https://ngrok.com/product), you can test and demo the chatbot locally. Simply do steps 1-4 on your local machine and run
 ```console
-$ python bot.py # To run the Flask application
+$ python bot.py   # To run the Flask application
 $ ngrok http 5000 # To obtain a public https url
 ```
 Copy and paste the `Forwarding` https:// url (with `/bot` appended to the end) from the ngrok output into the `A messasge comes in` field of your Twilio console. You can then respond with commands to your Twilio number to test the chatbot.
