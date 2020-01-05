@@ -1,5 +1,5 @@
 # Russell-Worstbrook
-Russell Worstbook is a web app built with [Flask](http://flask.palletsprojects.com/en/1.1.x/), [Twilio](https://www.twilio.com/docs/usage/api) and [nba_api](https://github.com/swar/nba_api) that notifies you via sms of "bad" boxscore stats for any given nba player after each game. 
+Russell Worstbook is an application built with [Flask](http://flask.palletsprojects.com/en/1.1.x/), [Twilio](https://www.twilio.com/docs/sms) and [nba_api](https://github.com/swar/nba_api) that notifies you via sms of bad boxscore stats for any given nba player after each game. 
 
 # Setup and Installation
 
@@ -39,15 +39,15 @@ This should create a `users.db` file in your working directory
 
 Using [ngrok](https://ngrok.com/product), you can test and demo the chatbot locally. Simply do steps 1-4 on your local machine and run
 ```console
-$ python bot.py
-$ ngrok http 5000
+$ python bot.py   # To run the Flask application
+$ ngrok http 5000 # To obtain a public https url
 ```
 Copy and paste the `Forwarding` https:// url (with `/bot` appended to the end) from the ngrok output into the `A messasge comes in` field of your Twilio console. You can then respond with commands to your Twilio number to test the chatbot.
 
 # Production Deployment
 To deploy the app, you will need a production-ready web server such as [nginx](https://www.nginx.com/) and a WSGI application server such as [gunicorn](https://gunicorn.org/) to handle the python code.
 
-`bot.py` contains the Flask app that conrols the chatbot that users can use to set their players. `daily_msg.py` is the script that sends notifications to users after their player plays a game.
+`bot.py` contains the Flask app that controls the chatbot that users can use to set their players. `daily_msg.py` is the script that sends notifications to users after their player plays a game.
 
 Since both processes must be running all the time and preferrably restart after crashing, it is advisable to use a process supervisor (on Linux) such as `supervisord` or `systemd` for both commands.
 
@@ -61,3 +61,6 @@ Be sure to update the `A message comes in` field of your phone number in the Twi
 
 # Usage
 You can respond `!set PLAYER_NAME` to set a new player. You can also respond `!player` to view your current player.
+<p align="center">
+ <img src="/screenshots/screenshot1.png" width="400"/>
+</p>
