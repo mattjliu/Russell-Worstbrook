@@ -1,5 +1,5 @@
 # Russell-Worstbrook
-Russell Worstbook is a web app built with [Flask](http://flask.palletsprojects.com/en/1.1.x/), [Twilio](https://www.twilio.com/docs/sms) and [nba_api](https://github.com/swar/nba_api) that notifies you via sms of bad boxscore stats for any given nba player after each game. 
+Russell Worstbook is an application built with [Flask](http://flask.palletsprojects.com/en/1.1.x/), [Twilio](https://www.twilio.com/docs/sms) and [nba_api](https://github.com/swar/nba_api) that notifies you via sms of bad boxscore stats for any given nba player after each game. 
 
 # Setup and Installation
 
