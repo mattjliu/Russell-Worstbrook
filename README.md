@@ -62,5 +62,5 @@ Be sure to update the `A message comes in` field of your phone number in the Twi
 # Usage
 You can respond `!set PLAYER_NAME` to set a new player. You can also respond `!player` to view your current player.
 <p align="center">
- <img src="/screenshots/screenshot1.png" width="400"/>
+ <img src="/screenshots/screenshot0.png" width="350"/>
 </p>
